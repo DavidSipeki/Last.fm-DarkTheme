@@ -38,6 +38,8 @@
     background-color: #8e0000;
 }
 
+
+
 .recs-feed .context {
     background: #1d1d1d;
     box-shadow: inset 1px 0 #252525,inset -1px -1px #0c0c0c;
@@ -47,6 +49,8 @@
 a {
     color: #13b0d4;
 }
+
+
 
 .stationlink-list .stationlink {
     color: #bcbcbc;
@@ -66,6 +70,8 @@ a {
     filter: invert(100%);
 }
 
+
+
 .stationlink-list .stationlink:focus::before, .stationlink-list .stationlink:hover::before {
     background-color: #cbcbcb;  
 }
@@ -76,9 +82,13 @@ a {
     display: none;
 }
 
+
+
 .lazy-features-footer {
     display: none;
 }
+
+
 
 .footer {
     background-color: #000;
@@ -132,6 +142,7 @@ a {
 
 
 
+
 /* RECCOMENDATIONS */
 
 .music-recommended-artists-artist-name,
@@ -160,9 +171,8 @@ a {
 }
 
 p {
-    color: #fff;  
+    color: #bcbcbc;  
 }
-
 
 
 
@@ -200,9 +210,6 @@ p {
 }
 
 
-
-
-
 /* EVENTS */
 
 .events-filter,
@@ -235,7 +242,6 @@ p {
 
 
 
-
 /* FEATURES */
 
 .features-header .features-teaser-body,
@@ -246,7 +252,6 @@ p {
 .features-teaser-title a, .features-teaser-title a:focus, .features-teaser-title a:hover {
     color: #fff;
 }
-
 
 
 
@@ -276,6 +281,7 @@ body:not(.js-focus-visible) body:not([data-whatinput="touch"]) .btn-secondary:fo
     background-color: #ba0000;
     color: #fff;
 }
+
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
@@ -316,6 +322,7 @@ body:not(.js-focus-visible) body:not([data-whatinput="touch"]) .btn-secondary:fo
 .chartlist-row:hover {
     background-color: #000;
 }
+
 
 .chartlist-count-bar-slug {
     background-image: linear-gradient(to right , #6e0000, #ba0000);;
@@ -408,10 +415,13 @@ tspan {
     color: #fff;
 }
 
+
 .user-dashboard-catalogue-item-artist-name.user-dashboard-catalogue-item-link {
     color: #bcbcbc;
 }
                                         
+                                        
+
 .highcharts-background {
     fill: #000;
 }
@@ -436,9 +446,6 @@ tspan {
 }
 
 
-
-
-
 /* LIBRARY */
 
 .col-sidebar._buffer-sidebar > figure >div > div > svg > .highcharts-background {
@@ -457,6 +464,7 @@ tspan {
 
 
 
+
 /* fOLLOWING */
 
 .user-list-name {
@@ -467,9 +475,64 @@ tspan {
 
 
 
+
 /* BOOKMARKS */
 
 .music-bookmarks-artists-item-name {
+    color: #fff;
+}
+
+
+
+
+
+
+/* ARTIST */
+
+.section-with-separator::after {
+    background-color: #080808;
+}
+
+.wiki-block-inner,
+.catalogue-metadata-heading,
+.catalogue-metadata-description{
+   color: #bcbcbc; 
+}
+
+.text-18 {
+    color: #ba0000;
+}
+
+.artist-similar-artists-sidebar-item-name a, .artist-similar-artists-sidebar-item-name a:focus, .artist-similar-artists-sidebar-item-name a:hover {
+    color: #fff;
+}
+
+.events-list-item-event-name.link-block-target >span {
+    color: #fff;
+}
+
+.events-list-item-venue > span {
+    color: #bcbcbc;
+}
+
+.artist-top-albums-item-name a, .artist-top-albums-item-name a:focus, .artist-top-albums-item-name a:hover {
+    color: #fff;
+}
+
+.listeners-section-item-name a, .listeners-section-item-name a:focus, .listeners-section-item-name a:hover {
+    color: #fff;
+}
+
+.catalogue-overview-similar-artists-full-width-item-name a, .catalogue-overview-similar-artists-full-width-item-name a:focus, .catalogue-overview-similar-artists-full-width-item-name a:hover {
+    color: #fff;   
+}
+
+.resource-external-link,
+.resource-external-link:hover {
+    color: #fff;
+}
+
+.shout-user a {
     color: #fff;
 }
 }
