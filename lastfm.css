@@ -268,6 +268,17 @@ p {
     background-color: #060606;
 }
 
+.chartlist-play-button::before {
+    background-color: #ebebeb;   
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.chartlist-play-button:focus:focus::before, .chartlist-play-button:focus:hover::before, .chartlist-play-button:hover:focus::before, .chartlist-play-button:hover:hover::before {
+    box-shadow: 0 0 0 1px rgba(255,255,255,.15);
+    background-color: #cbcbcb;  
+}
+
 .text-colour-link, h2 {
     color: #ba0000;
 }
@@ -534,5 +545,47 @@ tspan {
 
 .shout-user a {
     color: #fff;
+}
+
+
+
+
+
+/* TRACK */
+
+.source-album-artist a, .source-album-artist a:focus, .source-album-artist a:hover, .source-album-name a, .source-album-name a:focus, .source-album-name a:hover {
+    color: #fff;
+}
+
+.track-similar-tracks-item-name a, .track-similar-tracks-item-name a:focus, .track-similar-tracks-item-name a:hover {
+    color: #fff;
+}
+
+.about-artist-name a, .about-artist-name a:focus, .about-artist-name a:hover {
+    color: #fff;
+}
+
+.catalogue-overview-similar-artists-item-name a, .catalogue-overview-similar-artists-item-name a:focus, .catalogue-overview-similar-artists-item-name a:hover {
+    color: #fff;
+}
+
+.stationlink::before {
+        background-color: #ebebeb;   
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.stationlink:focus::before, .stationlink:hover::before {
+     box-shadow: 0 0 0 1px rgba(255,255,255,.15);
+    background-color: #cbcbcb;  
+}
+
+.video-preview-upload-cta {
+    background-color: #000;
+    box-shadow: 0 0 0 2px #8e0000;
+}
+
+.video-preview-upload-cta:not(.cta--inactive):focus, .video-preview-upload-cta:not(.cta--inactive):hover {
+    background-color: #080808;
 }
 }
