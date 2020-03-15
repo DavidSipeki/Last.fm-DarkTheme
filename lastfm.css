@@ -138,7 +138,9 @@ a {
     color: #fff;
 }
 
-
+.music-section-rediscover-subscribe-banner-cta {
+    background-color: #080808;
+}
 
 
 
@@ -510,6 +512,10 @@ tspan {
    color: #bcbcbc; 
 }
 
+.similar-albums-item-name a, .similar-albums-item-name a:focus, .similar-albums-item-name a:hover {
+    color: #fff;
+}
+
 .text-18 {
     color: #ba0000;
 }
@@ -587,5 +593,19 @@ tspan {
 
 .video-preview-upload-cta:not(.cta--inactive):focus, .video-preview-upload-cta:not(.cta--inactive):hover {
     background-color: #080808;
+}
+
+.highcharts-plot-bands-0 > path {
+    fill: #222;
+}
+
+.similar-items-sidebar-item-name {
+    color: #fff;
+}
+.resource-list--release-list-item-name {
+    color: #fff;
+}
+.shout--deleted, .shout--reported {
+    background: #080808;
 }
 }
