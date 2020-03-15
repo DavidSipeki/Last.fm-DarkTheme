@@ -258,6 +258,28 @@ p {
 
 
 
+
+/* FEATURES POST */
+
+.features-post-header-body {
+    background-color: #080808;
+}
+
+.features-post-header-title {
+    color: #ba0000;
+}
+
+.features-post-artist {
+    color: #fff;
+}
+
+.features-post-byline-item.features-post-author {
+    color: #fff
+}
+
+
+
+
 /* PROFILE */
 
 .header-avatar-add,
@@ -615,9 +637,12 @@ tspan {
 
 /* WIKI */
 
-.factbox-item {
+.factbox-item,
+#factbox-more-members
+{
     color: #bcbcbc;
 }
+
 
 .factbox-item > h4{
     color: #ba0000;
