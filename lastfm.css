@@ -579,6 +579,37 @@ tspan {
 
 
 
+
+/* SIMILAR ARTISTS */
+
+.similar-artists-item-name {
+    color: #fff;
+}
+
+.similar-artists-item-wiki-inner-2 {
+    color: #cbcbcb;
+}
+
+.section-playlink::before {
+    background-color: #ebebeb;   
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.section-playlink:hover::before {
+    box-shadow: 0 0 0 1px rgba(255,255,255,.15);
+    background-color: #cbcbcb;  
+}
+
+.section-playlink.js-playlink-station {
+    color: #fff;
+}
+            
+
+
+
+
+
 /* TRACK */
 
 .source-album-artist a, .source-album-artist a:focus, .source-album-artist a:hover, .source-album-name a, .source-album-name a:focus, .source-album-name a:hover {
@@ -729,5 +760,9 @@ body:not([data-whatinput="touch"]) .inbox-notifications .inbox-notifications__it
 
 .inbox .inbox-message--unviewed {
     background-color: #222;
+}
+
+.inbox .inbox-message--unviewed .inbox-message-status::after {
+    background-color: #ba0000;
 }
 }
