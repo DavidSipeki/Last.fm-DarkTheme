@@ -608,4 +608,49 @@ tspan {
 .shout--deleted, .shout--reported {
     background: #080808;
 }
+
+
+
+
+
+/* WIKI */
+
+.factbox-item {
+    color: #bcbcbc;
+}
+
+.factbox-item > h4{
+    color: #ba0000;
+}
+
+.alert-warning {
+    background-color: #222;
+}
+
+.content-form textarea,
+.content-form input[type="text"]
+{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #bcbcbc;
+}
+
+.content-form textarea:focus,
+.content-form input[type="text"]:focus
+{
+    border: 1px solid #ba0000;
+}
+
+.control-label {
+    color: #ba0000;
+}
+
+#stylerules {
+    background-color: #222;
+    color: #cbcbcb;
+}
+
+
+
+
 }
