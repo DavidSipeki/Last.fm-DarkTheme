@@ -653,4 +653,56 @@ tspan {
 
 
 
+/* OBSESSIONS */
+
+.obsession-history-play-all::before {
+    background-color: #ebebeb;   
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    color: #fff;
+}
+
+.obsession-history-play-all.js-playlink-station.inline-section-control
+{
+    color: #fff;
+}
+                    
+
+.obsession-history-play-all:hover::before {
+    box-shadow: 0 0 0 1px rgba(255,255,255,.15);
+    background-color: #cbcbcb;  
+}
+
+.obsession-search-result-header {
+    color: #ba0000;
+}
+
+.obsession-candidate-heading {
+    color: #fff;
+}
+
+
+
+
+/* MESSAGES */
+
+.inbox-notifications .inbox-notifications__item {
+    color: #cbcbcb;
+}
+
+.inbox-message-subject {
+    color: #ba0000;
+}
+
+body:not([data-whatinput="touch"]) .inbox-notifications .inbox-notifications__item--hover:hover {
+    background-color: #000;
+}
+
+.inbox .inbox-message {
+    background-color: #000;
+}
+
+.inbox .inbox-message--unviewed {
+    background-color: #222;
+}
 }
