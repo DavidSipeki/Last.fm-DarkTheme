@@ -94,6 +94,9 @@ a {
     background-color: #000;
 }
 
+.footer .row {
+    background-color: #000;
+}
 
 
 
@@ -142,6 +145,19 @@ a {
     background-color: #080808;
 }
 
+
+
+
+
+/* SEARCH */
+
+.artist-result-heading {
+    color: #fff;
+}
+
+.album-result-heading {
+    color: #fff;
+}
 
 
 
@@ -211,6 +227,12 @@ p {
     color: #fff;
 }
 
+.footer-top-row {
+    background-color: #000;
+}
+.two-column-layout .container {
+    background-color: #00000000;   
+}
 
 /* EVENTS */
 
@@ -575,7 +597,10 @@ tspan {
     color: #fff;
 }
 
-
+.js-playlink-station.desktop-playlink.inline-section-control.stationlink {
+    color: #fff;
+}
+                    
 
 
 
@@ -748,6 +773,15 @@ tspan {
 
 .inbox-message-subject {
     color: #ba0000;
+}
+
+.inbox-message-message {
+    color: #fff;
+}
+
+.inbox-message-view .inbox-message-message blockquote {
+    background: #000;
+    border: 1px solid #ba0000;
 }
 
 body:not([data-whatinput="touch"]) .inbox-notifications .inbox-notifications__item--hover:hover {
