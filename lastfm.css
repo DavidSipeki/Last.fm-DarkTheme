@@ -762,6 +762,21 @@ tspan {
     color: #fff;
 }
 
+.modal-dialog.popup_content,
+.modal-content {
+    background-color: #222;
+    box-shadow: none;
+}
+
+.content-form textarea:focus {
+    box-shadow: none;
+}
+
+.content-form textarea:hover:not([disabled]) {
+    border-color: #ba0000;
+}
+
+
 
 
 
@@ -769,6 +784,14 @@ tspan {
 
 .inbox-notifications .inbox-notifications__item {
     color: #cbcbcb;
+}
+
+.inbox-notifications .inbox-notifications__item--highlight {
+     background-color: #222;
+}
+
+.inbox-notifications__item--highlight-hover:hover {
+    background-color: #000;
 }
 
 .inbox-message-subject {
