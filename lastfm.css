@@ -503,6 +503,28 @@ tspan {
 }
 
 
+
+/* Listening Clock*/
+#SvgjsG1144 {
+    stroke: #000;
+}
+#SvgjsCircle1169 {
+    fill: #000;
+}
+#SvgjsText1199, #SvgjsText1200, #SvgjsText1201, #SvgjsText1202 {
+    fill: #bcbcbc;
+}
+#SvgjsSvg1203 #Layer_1 g path{
+    fill: #ba0000;
+}
+#SvgjsG1023 g circle{
+    fill: #ba0000;
+}
+
+
+
+
+
 /* LIBRARY */
 
 .col-sidebar._buffer-sidebar > figure >div > div > svg > .highcharts-background {
